@@ -1,7 +1,7 @@
 {
   "name": "melanoma-app-final",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,13 +9,30 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-cpu": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
     "expo": "~52.0.40",
+    "expo-asset": "^11.0.5",
+    "expo-camera": "^16.0.18",
+    "expo-file-system": "^18.0.12",
+    "expo-gl": "^15.0.4",
+    "expo-image-picker": "^16.0.6",
+    "expo-linking": "^7.0.5",
+    "expo-router": "^4.0.19",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-native": "0.76.7",
+    "react-native-fs": "^2.20.0",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.9.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9"
   },
   "private": true
 }
